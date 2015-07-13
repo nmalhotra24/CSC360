@@ -1,0 +1,112 @@
+========================= Test 1 =========================
+
+5
+1:55,10,1
+2:45,10,1
+3:35,10,1
+4:25,10,1
+5:15,10,1
+
+Customer  5 arrives: arrival time (1.50), service time (1.0), priority ( 1). 
+The clerk starts serving customer  5 at time 1.50. 
+Customer  4 arrives: arrival time (2.50), service time (1.0), priority ( 1). 
+Customer  4 waits for the finish of customer  5. 
+The clerk finishes the service to customer  5 at time 2.50. 
+The clerk starts serving customer  4 at time 2.50. 
+Customer  3 arrives: arrival time (3.50), service time (1.0), priority ( 1). 
+Customer  3 waits for the finish of customer  4. 
+The clerk finishes the service to customer  4 at time 3.50. 
+The clerk starts serving customer  3 at time 3.50. 
+Customer  2 arrives: arrival time (4.50), service time (1.0), priority ( 1). 
+Customer  2 waits for the finish of customer  3. 
+The clerk finishes the service to customer  3 at time 4.50. 
+The clerk starts serving customer  2 at time 4.50. 
+Customer  1 arrives: arrival time (5.50), service time (1.0), priority ( 1). 
+Customer  1 waits for the finish of customer  2. 
+The clerk finishes the service to customer  2 at time 5.50. 
+The clerk starts serving customer  1 at time 5.50. 
+The clerk finishes the service to customer  1 at time 6.50.
+
+5 - 4 - 3 - 2 - 1
+
+========================= Test 2 =========================
+
+5
+1:40,5,1
+2:45,5,3
+3:15,5,4
+4:10,20,2
+5:5,20,2
+
+Customer  5 arrives: arrival time (0.50), service time (2.0), priority ( 2). 
+The clerk starts serving customer  5 at time 0.50. 
+Customer  4 arrives: arrival time (1.00), service time (2.0), priority ( 2). 
+Customer  4 waits for the finish of customer  5. 
+Customer  3 arrives: arrival time (1.50), service time (0.5), priority ( 4). 
+Customer  3 waits for the finish of customer  5. 
+The clerk finishes the service to customer  5 at time 2.50. 
+The clerk starts serving customer  3 at time 2.50. 
+The clerk finishes the service to customer  3 at time 3.00. 
+The clerk starts serving customer  4 at time 3.00. 
+Customer  1 arrives: arrival time (4.00), service time (0.5), priority ( 1). 
+Customer  1 waits for the finish of customer  4. 
+Customer  2 arrives: arrival time (4.50), service time (0.5), priority ( 3). 
+Customer  2 waits for the finish of customer  4. 
+The clerk finishes the service to customer  4 at time 5.00. 
+The clerk starts serving customer  2 at time 5.00. 
+The clerk finishes the service to customer  2 at time 5.50. 
+The clerk starts serving customer  1 at time 5.50. 
+The clerk finishes the service to customer  1 at time 6.00.
+
+5 - 3 - 4 - 2 - 1
+
+========================= Test 3 =========================
+
+9
+1:50,5,4
+2:50,5,3
+3:50,1,3
+4:45,5,2
+5:20,30,2
+6:25,1,4
+7:15,1,2
+8:15,1,2
+9:1,30,2
+
+Customer  9 arrives: arrival time (0.10), service time (3.0), priority ( 2). 
+The clerk starts serving customer  9 at time 0.10. 
+Customer  7 arrives: arrival time (1.50), service time (0.1), priority ( 2). 
+Customer  7 waits for the finish of customer  9. 
+Customer  8 arrives: arrival time (1.50), service time (0.1), priority ( 2). 
+Customer  5 arrives: arrival time (2.00), service time (3.0), priority ( 2). 
+Customer  6 arrives: arrival time (2.50), service time (0.1), priority ( 4). 
+Customer  6 waits for the finish of customer  9. 
+The clerk finishes the service to customer  9 at time 3.10. 
+The clerk starts serving customer  6 at time 3.10. 
+The clerk finishes the service to customer  6 at time 3.20. 
+The clerk starts serving customer  7 at time 3.20. 
+Customer  8 waits for the finish of customer  7. 
+The clerk finishes the service to customer  7 at time 3.30. 
+The clerk starts serving customer  8 at time 3.30. 
+Customer  5 waits for the finish of customer  8. 
+The clerk finishes the service to customer  8 at time 3.40. 
+The clerk starts serving customer  5 at time 3.40. 
+Customer  4 arrives: arrival time (4.50), service time (0.5), priority ( 2). 
+Customer  4 waits for the finish of customer  5. 
+Customer  3 arrives: arrival time (5.00), service time (0.1), priority ( 3). 
+Customer  3 waits for the finish of customer  5. 
+Customer  2 arrives: arrival time (5.00), service time (0.5), priority ( 3). 
+Customer  1 arrives: arrival time (5.00), service time (0.5), priority ( 4). 
+Customer  1 waits for the finish of customer  5. 
+The clerk finishes the service to customer  5 at time 6.40. 
+The clerk starts serving customer  1 at time 6.40. 
+The clerk finishes the service to customer  1 at time 6.90. 
+The clerk starts serving customer  3 at time 6.90. 
+Customer  2 waits for the finish of customer  3. 
+The clerk finishes the service to customer  3 at time 7.00. 
+The clerk starts serving customer  2 at time 7.00. 
+The clerk finishes the service to customer  2 at time 7.50. 
+The clerk starts serving customer  4 at time 7.50. 
+The clerk finishes the service to customer  4 at time 8.00.
+
+9 - 6 - 7 - 8 - 5 - 1 - 3 - 2 - 4
