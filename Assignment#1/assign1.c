@@ -1,5 +1,4 @@
 // Nikita Malhotra
-// Student No: V00790483
 // CSC 360: Operating Systems
 // Assignment #1: To implement a realistic shell interpreter (RSI), interacting
 //                with the operating system using system calls

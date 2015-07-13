@@ -1,5 +1,4 @@
 // Nikita Malhotra
-// Student No: V00790483
 // CSC 360: Operating Systems
 // Assignment 3: To implement utilities that perfrom operations on a simple file
 //               system, FAT12, used by MS-DOS.

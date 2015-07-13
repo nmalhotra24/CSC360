@@ -1,5 +1,4 @@
 // Nikita Malhotra
-// Student No: V00790483
 // CSC 360: Operating Systems
 // Assingment #2: To stimulate a priority queueing system (PQS).
 
